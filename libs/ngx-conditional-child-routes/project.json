@@ -1,0 +1,42 @@
+{
+  "projectType": "library",
+  "root": "libs/ngx-conditional-child-routes",
+  "sourceRoot": "libs/ngx-conditional-child-routes/src",
+  "prefix": "gg",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/angular:package",
+      "outputs": ["dist/libs/ngx-conditional-child-routes"],
+      "options": {
+        "project": "libs/ngx-conditional-child-routes/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/ngx-conditional-child-routes/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/ngx-conditional-child-routes/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/ngx-conditional-child-routes"],
+      "options": {
+        "jestConfig": "libs/ngx-conditional-child-routes/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/ngx-conditional-child-routes/src/**/*.ts",
+          "libs/ngx-conditional-child-routes/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

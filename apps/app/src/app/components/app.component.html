@@ -1,0 +1,16 @@
+<h1>ngx-conditional-child-routes</h1>
+<div class="container">
+  <ng-container *ngIf="{ role: role$ | async } as context">
+    <div class="options">
+      <ng-container *ngIf="context.role">
+        <button (click)="reset()">&lt; Back</button>
+      </ng-container>
+
+      <ng-container class="options" *ngIf="!context.role">
+        <button (click)="loginAsAdmin()">Login as Admin</button>
+        <button (click)="loginAsUser()">Login as User</button>
+      </ng-container>
+    </div>
+  </ng-container>
+</div>
+<router-outlet></router-outlet>

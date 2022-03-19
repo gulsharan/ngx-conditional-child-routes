@@ -1,6 +1,6 @@
 # ngx-conditional-child-routes
 
-A lightweight angular library that makes it super easy to conditionally lazy-load child routes.
+A lightweight Angular library to conditionally lazy-load child routes.
 
 # Installation
 ```bash
@@ -80,7 +80,7 @@ RouterModule.forRoot([
 ```
 
 # Pass Data to your Route Loader
-If you need to pass some data to your conditional route loader,
+If you need to pass some data to your conditional route loader, 
 you need to implement `INgxConditionalChildRoutesLoaderWithData<T>` interface.
 
 ```typescript

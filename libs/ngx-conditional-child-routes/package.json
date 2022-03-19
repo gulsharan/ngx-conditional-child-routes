@@ -1,0 +1,32 @@
+{
+  "name": "ngx-conditional-child-routes",
+  "version": "0.0.7",
+  "author": {
+    "name": "Gulsharan Goraya",
+    "email": "gulsharan@gmail.com"
+  },
+  "homepage": "https://github.com/gulsharan/ngx-conditional-child-routes",
+  "license": "MIT",
+  "publishConfig": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gulsharan/ngx-conditional-child-routes"
+  },
+  "bugs": {
+    "url": "https://github.com/gulsharan/ngx-conditional-child-routes/issues"
+  },
+  "keywords": [
+    "angular",
+    "routing",
+    "lazy",
+    "conditional"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^13.0.0",
+    "@angular/core": "^13.0.0",
+    "rxjs": "^6.5.3 || ^7.4.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
