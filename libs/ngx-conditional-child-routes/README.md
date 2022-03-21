@@ -1,8 +1,6 @@
 <div style="text-align:center">
 
-  <h3>
-    ngx-conditional-child-routes
-  </h3>
+# ngx-conditional-child-routes
 
   <p>
     Lightweight Angular library for conditionally lazy-loading child routes.
