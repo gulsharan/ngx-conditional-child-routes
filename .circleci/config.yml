@@ -1,0 +1,29 @@
+version: 2.1
+
+orbs:
+  nx: nrwl/nx@1.2.0
+
+jobs:
+  checks:
+    docker:
+      - image: cimg/node:14.17-browsers
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: yarn install --frozen-lockfile
+      - nx/set-shas
+      - run:
+          name: Run Builds
+          command: yarn build:ci
+      - run:
+          name: Run Unit Tests
+          command: yarn test:ci
+      - run:
+          name: Run Lint
+          command: yarn lint:ci
+
+workflows:
+  run-ci:
+    jobs:
+      - checks
