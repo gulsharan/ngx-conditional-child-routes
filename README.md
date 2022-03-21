@@ -9,7 +9,7 @@
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/gulsharan/ngx-conditional-child-routes)](https://github.com/gulsharan/ngx-conditional-child-routes/releases)
 [![npm bundle size](https://img.shields.io/bundlephobia/minzip/ngx-conditional-child-routes)](https://bundlephobia.com/package/ngx-conditional-child-routes)
 [![NPM](https://img.shields.io/npm/l/ngx-conditional-child-routes)](https://github.com/gulsharan/ngx-conditional-child-routes/blob/main/LICENSE)
-[![CircleCI](https://img.shields.io/circleci/build/gh/gulsharan/ngx-conditional-child-routes?token=b9fff275a3dc37e1c72bba5dc27bb3d99075488e)](https://app.circleci.com/pipelines/github/gulsharan/ngx-conditional-child-routes)
+[![CircleCI](https://img.shields.io/circleci/build/gh/gulsharan/ngx-conditional-child-routes?token=96c1a7c4cc2e0a71cc6f22b30277f35d393e54ff)](https://app.circleci.com/pipelines/github/gulsharan/ngx-conditional-child-routes)
 [![GitHub issues](https://img.shields.io/github/issues/gulsharan/ngx-conditional-child-routes)](https://github.com/gulsharan/ngx-conditional-child-routes/issues)
 
 </div>
