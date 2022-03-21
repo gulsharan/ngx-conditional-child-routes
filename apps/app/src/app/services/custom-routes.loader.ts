@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Injectable } from '@angular/core';
 import { INgxConditionalChildRoutesLoader } from 'ngx-conditional-child-routes';
-import { map } from 'rxjs';
+import { map } from 'rxjs/operators';
 
 import { AuthService, UserRole } from './auth.service';
 
